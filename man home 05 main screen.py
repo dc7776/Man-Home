@@ -78,21 +78,21 @@ while 1 : #main loop
 		system('clear')
 		print(settings_page)
 		c = getch()
-		if c == 'm' or 'M' :
+		if c in ['m', 'M'] :
 			n = input('Enter new Max Men\n4 is the default: ')
 			n = re.findall('[0-9]', n)
 			n = ''.join(n)
 			if n == '' : n = 4
 			else : n = int(n)
 			MAX_MEN = n
-		elif c == 'h' or 'H:
+		elif c in ['h', 'H'] :
 			n = input('Enter new Home Win\n3 is the default: ')
 			n = re.findall('[0-9]', n)
 			n = ''.join(n)
 			if n == '' : n = 3
 			else : n = int(n)
 			HOME_WIN = n
-		elif c == 'c' OR 'C' :
+		elif c in ['c', 'C'] :
 			n = input('Enter new Casualties Lose\n12 is the default: ')
 			n = re.findall('[0-9]', n)
 			n = ''.join(n)
