@@ -99,7 +99,7 @@ while 1 : #main loop
 			if n == '' : n = 12
 			else : n = int(n)
 			CASUALTIES_LOSE = n
-		elif c == 'r' :
+		elif c in ['r', 'R'] :
 			system('clear')
 			rules = f'''        ---Man Home---
 
