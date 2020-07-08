@@ -133,13 +133,13 @@ Press any key
 	#game loop
 	while playing :
 		system('clear')
-		print('       ---Home Run---')
+		print('       ---Man Home---')
 		print(f'Player 1 ', end='')
-		if current == player1 : print('*Your Turn*')
+		if current == player1 : print(' *Your Turn*')
 		else : print('')
 		print(f'Men: {player1.men}\n   Home: {player1.home}   Casualties: {player1.casualties}')
 		print(f'Player 2 ', end='')
-		if current == player2 : print('*Your Turn*')
+		if current == player2 : print(' *Your Turn*')
 		else : print('')
 		print(f'Men: {player2.men}\n   Home: {player2.home}   Casualties: {player2.casualties}\n')
 
