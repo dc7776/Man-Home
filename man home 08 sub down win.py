@@ -161,7 +161,7 @@ Press any key to return to the main menu...
 			while 1 :
 				if len(factors) == 1 and pos-factors[0] == 0 :
 					new = pos-1
-					print('Prime: Can only move 1')
+					print('Prime~ Can only move 1')
 					print(f'Moved {pos} to {new}')
 					break
 				else :
