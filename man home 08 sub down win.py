@@ -15,8 +15,6 @@ NEW_RANGE = 60
 HOME_WIN = 3
 CASUALTIES_LOSE = 12
 
-turndie = ['new man', 'add one', 'subtract one', 'subtract one', 'add by factor', 'subtract by factor', 'subtract by factor', 'subtract by factor']
-
 #prime generator by division
 def pgdiv(z) :
 	q=[2]
